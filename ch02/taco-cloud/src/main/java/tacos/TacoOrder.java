@@ -13,6 +13,9 @@ public class TacoOrder {
   @NotBlank(message="Delivery name is required")
   private String deliveryName;
 
+  @NotBlank(message="Delivery nickname is required")
+  private String deliveryNickName;
+
   @NotBlank(message="Street is required")
   private String deliveryStreet;
 

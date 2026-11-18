@@ -1,3 +1,6 @@
+server:
+  port: 8082
+
 #tag::setDatabaseName[]
 spring:
   datasource:
